@@ -1,0 +1,56 @@
+[
+  {
+    "id": 101,
+    "title": "Oral & Maxillofacial Surgery",
+    "detail": "Donec at semper turpis, et commodo quam. Duis eget ex eget mi aliquam lobortis sit amet vitae erat. Pellentesque in enim eleifend, ultricies massa id, sagittis massa. Sed nec mi in mi ultricies rutrum. Sed at mi neque. Pellentesque elementum, enim quis laoreet pellentesque, nisl lorem egestas enim, quis bibendum sapien libero eget dolor. ",
+    "phone": "123-123-1234",
+    "address": "132 Jefferson Avenue, Suite 22, Redwood City, CA 94872, USA",
+    "email": "ateeq@yoursite.com ",
+    "img":  "https://www.careersinhealthcare.com/wp-content/uploads/2018/10/Oral-and-Maxillofacial-Surgeon.jpeg"
+  },
+  {
+    "id": 102,
+    "title": "Prosthodontics Dental Implants",
+    "detail": "Donec at semper turpis, et commodo quam. Duis eget ex eget mi aliquam lobortis sit amet vitae erat. Pellentesque in enim eleifend, ultricies massa id, sagittis massa. Sed nec mi in mi ultricies rutrum. Sed at mi neque. Pellentesque elementum, enim quis laoreet pellentesque, nisl lorem egestas enim, quis bibendum sapien libero eget dolor. ",
+    "phone": "123-123-1234",
+    "address": "132 Jefferson Avenue, Suite 22, Redwood City, CA 94872, USA",
+    "email": "ateeq@yoursite.com ",
+    "img": "https://dralexandragarcia.com/tpn/gen/IMG-dental-implant-GettyImages-931130140.jpg"
+  },
+  {
+    "id": 103,
+    "title": "Endodontics Dentistry",
+    "detail": "Donec at semper turpis, et commodo quam. Duis eget ex eget mi aliquam lobortis sit amet vitae erat. Pellentesque in enim eleifend, ultricies massa id, sagittis massa. Sed nec mi in mi ultricies rutrum. Sed at mi neque. Pellentesque elementum, enim quis laoreet pellentesque, nisl lorem egestas enim, quis bibendum sapien libero eget dolor. ",
+    "phone": "123-123-1234",
+    "address": "132 Jefferson Avenue, Suite 22, Redwood City, CA 94872, USA",
+    "email": "ateeq@yoursite.com ",
+    "img":"https://apexendotn.com/wp-content/uploads/2018/08/stateoftheart.png"
+  },
+  {
+    "id": 104,
+    "title": "Minimum Intervention Dentistry",
+    "detail": "Donec at semper turpis, et commodo quam. Duis eget ex eget mi aliquam lobortis sit amet vitae erat. Pellentesque in enim eleifend, ultricies massa id, sagittis massa. Sed nec mi in mi ultricies rutrum. Sed at mi neque. Pellentesque elementum, enim quis laoreet pellentesque, nisl lorem egestas enim, quis bibendum sapien libero eget dolor. ",
+    "phone": "123-123-1234",
+    "address": "132 Jefferson Avenue, Suite 22, Redwood City, CA 94872, USA",
+    "email": "ateeq@yoursite.com ",
+    "img": "https://cdn.dhamadison.com/wp-content/uploads/2020/09/05204958/endo_illus.jpg"
+  },
+  {
+    "id": 105,
+    "title": "Orthodontics and The Braces",
+    "detail": "Donec at semper turpis, et commodo quam. Duis eget ex eget mi aliquam lobortis sit amet vitae erat. Pellentesque in enim eleifend, ultricies massa id, sagittis massa. Sed nec mi in mi ultricies rutrum. Sed at mi neque. Pellentesque elementum, enim quis laoreet pellentesque, nisl lorem egestas enim, quis bibendum sapien libero eget dolor. ",
+    "phone": "123-123-1234",
+    "address": "132 Jefferson Avenue, Suite 22, Redwood City, CA 94872, USA",
+    "email": "ateeq@yoursite.com ",
+    "img": "https://palmharborpremierdental.com/wp-content/uploads/2020/07/Endodontics_palm-540x360.jpg"
+  },
+  {
+    "id": 106,
+    "title": "Pediatric Dentistry",
+    "detail": "Donec at semper turpis, et commodo quam. Duis eget ex eget mi aliquam lobortis sit amet vitae erat. Pellentesque in enim eleifend, ultricies massa id, sagittis massa. Sed nec mi in mi ultricies rutrum. Sed at mi neque. Pellentesque elementum, enim quis laoreet pellentesque, nisl lorem egestas enim, quis bibendum sapien libero eget dolor. ",
+    "phone": "123-123-1234",
+    "address": "132 Jefferson Avenue, Suite 22, Redwood City, CA 94872, USA",
+    "email": "ateeq@yoursite.com ",
+    "img": "https://www.westannapolisfamilydentistry.com/wp-content/uploads/sites/18/2020/04/endodontic.jpg"
+  }
+]
