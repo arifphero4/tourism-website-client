@@ -10,7 +10,7 @@ const DetailsService = () => {
     const [services] = useContext(useServices)
     const findService = services?.find(service => service.id === Number(id))
     console.log(findService);
-    const { title, img, address, email, phone, detail } = findService;
+    const { title, img,    detail, price } = findService;
     const serviceDetailsHeader = {
         background: `linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(${img}) no-repeat center`,
         minHeight: '250px',
@@ -32,11 +32,10 @@ const DetailsService = () => {
                                         <img className="img-fluid" src={ img} alt="" />
                                     </div>
                                     <div className="col-12  col-md-6">
-                                        <h2 className="text-success">{title}</h2>
-                                        <p className="lead text-success fw-bold"><strong className="text-danger me-3">Email : </strong>{ email}</p>
-                                        <p className="lead text-success fw-bold"><strong className="text-danger me-3">Phone : </strong>{ phone}</p>
-                                        <p className="lead text-success fw-bold">{address}</p>
-                                        <p className="lead text-success fw-bold">{detail}</p>
+                                        <h2 >{title}</h2>
+                                        <p className="lead fw-bold"><strong className=" me-3">Event Fee:  </strong>Rs. { price}</p>
+                                        
+                                        <p className="lead  fw-bold">{detail}</p>
                                     </div>
                             </div>
                         </div>

@@ -6,10 +6,11 @@ const Services = () => {
     const [services] = useContext(useServices);
     return (
         <div>
-            <div className="container-fluid bg-danger py-5 text-center">
-                 <h1 className="text-white text-capitalize ">Our all services</h1>
+            <div className="container-fluid  py-5 text-center">
+                <span>Destination lists</span>
+                 <h1 className=" text-capitalize ">Go Exotic Places</h1>
             </div>
-            <div className="container py-5">
+            <div className="container ">
                 <div className="row">
                     {
                         services.map(service=> <Service key={service.id} service={service}></Service>)

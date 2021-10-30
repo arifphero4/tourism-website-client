@@ -29,7 +29,7 @@ const DetailsService = () => {
                         <div className="container">
                                 <div className="row mt-5">
                                     <div className="col-12 col-md-6">
-                                        <img className="img-fluid" src={ img} alt="" />
+                                        <img  className="img-fluid" src={ img} alt="" />
                                     </div>
                                     <div className="col-12  col-md-6">
                                         <h2 className="text-success">{title}</h2>

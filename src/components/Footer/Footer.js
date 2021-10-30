@@ -13,8 +13,8 @@ const Footer = () => {
                     <div className="col-6 col-lg-3">
                         <ul>
                             <NavLink className="text-decoration-none text-white d-block h6" to="/home">Home</NavLink>
-                            <NavLink className="text-decoration-none text-white d-block h6" to="/doctors">Doctors</NavLink>
-                            <NavLink className="text-decoration-none text-white d-block h6" to="/hospital">Hospital</NavLink>
+                            <NavLink className="text-decoration-none text-white d-block h6" to="/tours">My Tours</NavLink>
+                            <NavLink className="text-decoration-none text-white d-block h6" to="/tourPlans">Make Tour Plans</NavLink>
                             {!user.email?
                                 <div>
                             <NavLink className="text-decoration-none text-white d-block h6" to="/login">Login</NavLink>

@@ -1,56 +1,44 @@
 [
   {
     "id": 101,
-    "title": "Oral & Maxillofacial Surgery",
-    "detail": "Donec at semper turpis, et commodo quam. Duis eget ex eget mi aliquam lobortis sit amet vitae erat. Pellentesque in enim eleifend, ultricies massa id, sagittis massa. Sed nec mi in mi ultricies rutrum. Sed at mi neque. Pellentesque elementum, enim quis laoreet pellentesque, nisl lorem egestas enim, quis bibendum sapien libero eget dolor. ",
-    "phone": "123-123-1234",
-    "address": "132 Jefferson Avenue, Suite 22, Redwood City, CA 94872, USA",
-    "email": "ateeq@yoursite.com ",
-    "img":  "https://www.careersinhealthcare.com/wp-content/uploads/2018/10/Oral-and-Maxillofacial-Surgeon.jpeg"
+    "title": "The Taj Mahal, Agra",
+    "detail": "The Taj Mahal, is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. ",
+    "price": 500,
+    "img":  "https://lp-cms-production.imgix.net/2020-11/GettyRF_494057771.jpg"
   },
   {
     "id": 102,
-    "title": "Prosthodontics Dental Implants",
-    "detail": "Donec at semper turpis, et commodo quam. Duis eget ex eget mi aliquam lobortis sit amet vitae erat. Pellentesque in enim eleifend, ultricies massa id, sagittis massa. Sed nec mi in mi ultricies rutrum. Sed at mi neque. Pellentesque elementum, enim quis laoreet pellentesque, nisl lorem egestas enim, quis bibendum sapien libero eget dolor. ",
-    "phone": "123-123-1234",
-    "address": "132 Jefferson Avenue, Suite 22, Redwood City, CA 94872, USA",
-    "email": "ateeq@yoursite.com ",
-    "img": "https://dralexandragarcia.com/tpn/gen/IMG-dental-implant-GettyImages-931130140.jpg"
+    "title": "Valley Of Flowers, Uttarakhand",
+    "detail": "In July and September, the valley of flowers looks completely mind-blowing.  ",
+    "price": 475,
+    "img": "https://www.mygoodtrip.in/wp-content/uploads/2020/08/1-lW05RlARF0vAhJMdVRGxVw.png"
   },
   {
     "id": 103,
-    "title": "Endodontics Dentistry",
-    "detail": "Donec at semper turpis, et commodo quam. Duis eget ex eget mi aliquam lobortis sit amet vitae erat. Pellentesque in enim eleifend, ultricies massa id, sagittis massa. Sed nec mi in mi ultricies rutrum. Sed at mi neque. Pellentesque elementum, enim quis laoreet pellentesque, nisl lorem egestas enim, quis bibendum sapien libero eget dolor. ",
-    "phone": "123-123-1234",
-    "address": "132 Jefferson Avenue, Suite 22, Redwood City, CA 94872, USA",
-    "email": "ateeq@yoursite.com ",
-    "img":"https://apexendotn.com/wp-content/uploads/2018/08/stateoftheart.png"
+    "title": "Gurudongmar Lake, Sikkim",
+    "detail": "Gurudongmar Lake is one of the highest lakes in the world and in India, located at an altitude of 5,430 m, in the Indian state of Sikkim. ",
+    "price": 620,
+    "img":"https://img.traveltriangle.com/blog/wp-content/uploads/2019/09/Gurudongmar-Lake-cover.jpg"
   },
   {
     "id": 104,
-    "title": "Minimum Intervention Dentistry",
-    "detail": "Donec at semper turpis, et commodo quam. Duis eget ex eget mi aliquam lobortis sit amet vitae erat. Pellentesque in enim eleifend, ultricies massa id, sagittis massa. Sed nec mi in mi ultricies rutrum. Sed at mi neque. Pellentesque elementum, enim quis laoreet pellentesque, nisl lorem egestas enim, quis bibendum sapien libero eget dolor. ",
-    "phone": "123-123-1234",
-    "address": "132 Jefferson Avenue, Suite 22, Redwood City, CA 94872, USA",
-    "email": "ateeq@yoursite.com ",
-    "img": "https://cdn.dhamadison.com/wp-content/uploads/2020/09/05204958/endo_illus.jpg"
+    "title": "Amber Palace, Rajasthan",
+    "detail": "Amber Fort or Amer Fort is a fort located in Amber, Rajasthan, India. Amber is a town with an area of 4 square kilometres located 11 kilometres from Jaipur, the capital of Rajasthan. The town of Amber and the Amber Fort was built by Raja Alan Singh Chanda 967 AD, later ruled by kachawaha rajputs. ",
+    "price": 350,
+    "img": "https://i0.wp.com/www.rajasthandirect.com/wp-content/uploads/2012/11/amber-fort-jaipur.jpg?fit=900%2C450&ssl=1"
   },
   {
     "id": 105,
-    "title": "Orthodontics and The Braces",
-    "detail": "Donec at semper turpis, et commodo quam. Duis eget ex eget mi aliquam lobortis sit amet vitae erat. Pellentesque in enim eleifend, ultricies massa id, sagittis massa. Sed nec mi in mi ultricies rutrum. Sed at mi neque. Pellentesque elementum, enim quis laoreet pellentesque, nisl lorem egestas enim, quis bibendum sapien libero eget dolor. ",
-    "phone": "123-123-1234",
-    "address": "132 Jefferson Avenue, Suite 22, Redwood City, CA 94872, USA",
-    "email": "ateeq@yoursite.com ",
-    "img": "https://palmharborpremierdental.com/wp-content/uploads/2020/07/Endodontics_palm-540x360.jpg"
+    "title": "Dudhsagar Falls, Goa",
+    "detail": "The falls is located in the Bhagwan Mahaveer Sanctuary and Mollem National Park among the Western Ghats. The waterfall is located in the state of Goa. ",
+    "price": 760,
+    "img": "https://www.tourmyindia.com/states/goa/image/waterfalls-in-goa.webp"
   },
   {
     "id": 106,
-    "title": "Pediatric Dentistry",
-    "detail": "Donec at semper turpis, et commodo quam. Duis eget ex eget mi aliquam lobortis sit amet vitae erat. Pellentesque in enim eleifend, ultricies massa id, sagittis massa. Sed nec mi in mi ultricies rutrum. Sed at mi neque. Pellentesque elementum, enim quis laoreet pellentesque, nisl lorem egestas enim, quis bibendum sapien libero eget dolor. ",
-    "phone": "123-123-1234",
-    "address": "132 Jefferson Avenue, Suite 22, Redwood City, CA 94872, USA",
-    "email": "ateeq@yoursite.com ",
-    "img": "https://www.westannapolisfamilydentistry.com/wp-content/uploads/sites/18/2020/04/endodontic.jpg"
+    "title": "Victoria Memorial, Kolkata",
+    "detail": "The Victoria Memorial is a large marble building in Central Kolkata, which was built between 1906 and 1921. It is dedicated to the memory of Empress Victoria, and is now a museum under the auspices of the Ministry of Culture.",
+    "price": 430,
+    "img": "https://www.prints-online.com/p/164/victoria-memorial-kolkata-india-4454039.jpg"
   }
 ]
