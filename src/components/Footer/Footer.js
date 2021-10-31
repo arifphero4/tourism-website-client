@@ -7,8 +7,8 @@ import useAuth from '../../hooks/useAuth';
 const Footer = () => {
     const {user, logOut} = useAuth();
     return (
-        <div>
-            <div style={{background:'#333'}} className="py-5">
+        <div className="mt-5">
+            <div style={{background:'#E94760'}} className="py-5">
                <div className="container row mx-auto">
                     <div className="col-6 col-lg-3">
                         <ul>
@@ -51,8 +51,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-dark py-4">
-                <p className="text-white text-center">all right reserved by Dental <span className="text-danger">&copy; 2021</span></p>
+            <div style={{background:'#C9253E'}} className=" py-4">
+                <p className="text-white text-center">all right reserved by Dental <span >&copy; 2021</span></p>
             </div>
         </div>
     );

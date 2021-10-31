@@ -10,7 +10,7 @@ const DetailsService = () => {
     const [services] = useContext(useServices)
     const findService = services?.find(service => service.id === Number(id))
     console.log(findService);
-    const { title, img,    detail, price } = findService;
+    const { name, img, description, price } = findService;
     const serviceDetailsHeader = {
         background: `linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(${img}) no-repeat center`,
         minHeight: '250px',
@@ -23,7 +23,7 @@ const DetailsService = () => {
                     <div>
                         <div className="service-details-banner d-flex align-items-center justify-content-center" style={serviceDetailsHeader}>
                             <div >
-                                <p className="d-flex align-items-center text-white"><Link className="text-decoration-none fw-bold text-danger" to="/home">Home </Link> <span className="text-danger px-2 h2">/</span> { title}</p>
+                                <p className="d-flex align-items-center text-white"><Link className="text-decoration-none fw-bold text-danger" to="/home">Home </Link> <span className="text-danger px-2 h2">/</span> { name}</p>
                             </div>
                         </div>
                         <div className="container">
@@ -32,10 +32,10 @@ const DetailsService = () => {
                                         <img className="img-fluid" src={ img} alt="" />
                                     </div>
                                     <div className="col-12  col-md-6">
-                                        <h2 >{title}</h2>
+                                        <h2 >{name}</h2>
                                         <p className="lead fw-bold"><strong className=" me-3">Event Fee:  </strong>Rs. { price}</p>
                                         
-                                        <p className="lead  fw-bold">{detail}</p>
+                                        <p className="lead  fw-bold">{description}</p>
                                     </div>
                             </div>
                         </div>

@@ -8,8 +8,8 @@ const Header = () => {
   }
   const {user, logOut} = useAuth()
     return (
-        <div >
-            <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-danger ">
+        <div  >
+            <nav style={{background:'#E94760'}} className="navbar fixed-top navbar-expand-lg navbar-light  ">
                 <div className="container">
                     <NavLink className="navbar-brand text-white" to="/"><img width="200px" src={logo} alt="" /></NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
