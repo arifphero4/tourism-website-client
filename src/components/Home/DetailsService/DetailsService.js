@@ -1,48 +1,37 @@
-import React, { useContext } from 'react';
-import { useHistory, useParams } from 'react-router';
-import { Link } from 'react-router-dom';
-import { useServices } from '../../../App';
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router';
+import BookTours from './BookTours/BookTours';
+
 
 const DetailsService = () => {
+    const {id} = useParams();
     
-    const { id } = useParams();
-    const history = useHistory()
-    const [services] = useContext(useServices)
-    const findService = services?.find(service => service.id === Number(id))
-    console.log(findService);
-    const { name, img, description, price } = findService;
-    const serviceDetailsHeader = {
-        background: `linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(${img}) no-repeat center`,
-        minHeight: '250px',
-        width:'100%'
-    }
+    const [service, setService] = useState({});
+    const {name, img, description, price} = service;
+    useEffect(() => {
+        fetch(`http://localhost:5000/services/${id}`)
+            .then(res => res.json())
+            .then(data => setService(data));
+    }, [service]);
+    
+
     return (
-        <div className="mt-5 pt-2">
-            {
-                services ?
-                    <div>
-                        <div className="service-details-banner d-flex align-items-center justify-content-center" style={serviceDetailsHeader}>
-                            <div >
-                                <p className="d-flex align-items-center text-white"><Link className="text-decoration-none fw-bold text-danger" to="/home">Home </Link> <span className="text-danger px-2 h2">/</span> { name}</p>
-                            </div>
-                        </div>
-                        <div className="container">
-                                <div className="row mt-5">
-                                    <div className="col-12 col-md-6">
-                                        <img className="img-fluid" src={ img} alt="" />
-                                    </div>
-                                    <div className="col-12  col-md-6">
-                                        <h2 >{name}</h2>
-                                        <p className="lead fw-bold"><strong className=" me-3">Event Fee:  </strong>Rs. { price}</p>
-                                        
-                                        <p className="lead  fw-bold">{description}</p>
-                                    </div>
-                            </div>
-                        </div>
+        <div className="my-5">
+            <div className="container">
+                <div className="row d-flex align-items-center ">
+                     <div className="col-lg-6 col-md-12 col-sm-12 text-center mt-5 ">
+                        <img style={{height:"300px", width:"400px"}}  src={ img} alt="" />
+                        <h2>{name} </h2>
+                        <h4>Event Fee: Rs. {price}</h4>
+                        <p>{description}</p>
                     </div>
-                    :
-                history.push('/')
-             }
+                    <div className="col-lg-6 col-md-12 col-sm-12">
+                       
+                       <BookTours  service={service}> </BookTours>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     );
 };

@@ -125,6 +125,7 @@ const useFirebase = () => {
         handlePasswordChange,
         handleFormcontrol,
         error,
+        setError,
         toggolLogin,
         isLogin,
         setIsLoading,
