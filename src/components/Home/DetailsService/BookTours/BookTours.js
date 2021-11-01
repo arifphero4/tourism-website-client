@@ -18,8 +18,10 @@ const BookTours = ({service}) => {
         console.log(data);
         data.serviceName = name;
         data.servicePrice = price;
+        
+        
 
-        axios.post('http://localhost:5000/booking', data)
+        axios.post('https://salty-caverns-03551.herokuapp.com/booking', data)
         .then(res => {
             if(res.data.insertedId){
                 swal("Good job!", "added successfully!", "success");

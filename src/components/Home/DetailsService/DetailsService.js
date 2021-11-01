@@ -9,7 +9,7 @@ const DetailsService = () => {
     const [service, setService] = useState({});
     const {name, img, description, price} = service;
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${id}`)
+        fetch(`https://salty-caverns-03551.herokuapp.com/services/${id}`)
             .then(res => res.json())
             .then(data => setService(data));
     }, [service]);

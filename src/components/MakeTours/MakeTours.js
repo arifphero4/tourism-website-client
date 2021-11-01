@@ -12,7 +12,7 @@ const MakeTours = () => {
     const onSubmit = data => {      
         console.log(data);
 
-        axios.post('http://localhost:5000/services', data)
+        axios.post('https://salty-caverns-03551.herokuapp.com/services', data)
             .then(res => {
                 if(res.data.insertedId){
                     swal("Good job!", "added successfully!", "success");

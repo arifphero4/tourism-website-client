@@ -20,18 +20,19 @@ const Header = () => {
                         <li className="nav-item ms-4">
                           <NavLink activeStyle={activeNavMenu} className="nav-link text-white"  to="/">Home</NavLink>
                         </li>
-                        <li className="nav-item ms-4">
-                          <NavLink activeStyle={activeNavMenu} className="nav-link  text-white " to="/tours">My Tours</NavLink>
-                        </li>
-                        <li className="nav-item ms-4">
-                          <NavLink activeStyle={activeNavMenu} className="nav-link  text-white "  to="/tourPlans">Make Tour Plans</NavLink>
-                        </li>
+                        
                         
                         <li className="nav-item ms-4">
                          {
                          user.email ?
                          <div className="d-flex">
-                         
+                          
+                          <li className="nav-item ms-4">
+                          <NavLink activeStyle={activeNavMenu} className="nav-link  text-white " to="/tours">My Tours</NavLink>
+                        </li>
+                        <li className="nav-item ms-4">
+                          <NavLink activeStyle={activeNavMenu} className="nav-link  text-white "  to="/tourPlans">Make Tour Plans</NavLink>
+                        </li> 
                           <NavLink activeStyle={activeNavMenu} className="nav-link  text-white mr-5"  to="/manageTours">Manage all Tours</NavLink>
                         
                           
